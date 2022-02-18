@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello World!</title>
+        <link rel="stylesheet" href="index.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+        />
+        <script defer src="./render.js"></script>
+    </head>
+
+    <body>
+        <div class="container mt-6 pr-4 pl-4">
+            <div
+                class="is-flex is-flex-direction-row is-flex-wrap-nowrap is-justify-content-center is-align-items-center"
+            >
+                <input
+                    class="input"
+                    id="todo-input"
+                    type="text"
+                    placeholder="Add a task"
+                />
+                <button class="ml-2 button is-primary" id="add-todo-button">
+                    Add
+                </button>
+            </div>
+            <ul
+                id="todo-list-wrapper"
+                class="mt-4 is-flex is-flex-direction-column is-flex-wrap-nowrap"
+            ></ul>
+        </div>
+    </body>
+</html>
