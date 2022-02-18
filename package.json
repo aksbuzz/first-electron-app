@@ -25,18 +25,15 @@
           "name": "@electron-forge/maker-squirrel",
           "config": {
             "name": "first_electron_app",
-            "author": "Akshay"
+            "author": "Akshay",
+            "exe": "first_electron_app.exe"
           }
         },
         {
           "name": "@electron-forge/maker-zip",
           "platforms": [
-            "darwin"
+            "darwin", "linux"
           ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
         }
       ]
     }
