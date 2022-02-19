@@ -26,7 +26,6 @@
           "config": {
             "name": "first_electron_app",
             "author": "Akshay"
-            "draft": true
           }
         },
         {
@@ -43,7 +42,8 @@
           "config": {
             "repository": {
               "owner": "aksbuzz",
-              "name": "first-electron-app"
+              "name": "first-electron-app",
+              "draft": true
             }
           }
         }
