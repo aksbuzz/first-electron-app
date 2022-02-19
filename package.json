@@ -26,6 +26,7 @@
           "config": {
             "name": "first_electron_app",
             "author": "Akshay"
+            "draft": true
           }
         },
         {
