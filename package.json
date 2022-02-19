@@ -42,9 +42,9 @@
           "config": {
             "repository": {
               "owner": "aksbuzz",
-              "name": "first-electron-app",
-              "draft": true
-            }
+              "name": "first-electron-app"
+            },
+            "draft": true
           }
         }
       }

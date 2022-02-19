@@ -12,11 +12,12 @@ on:
 jobs:
   build:
 
-    runs-on: windows-latest
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         node-version: [16.x]
+        os: [macos-latest, ubuntu-latest, windows-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -29,5 +30,5 @@ jobs:
     - run: npm ci
     - name: publish
       env: 
-        GITHUB_TOKENS: ${{secrets.TOKEN}}
-      run: npm run package --if-present
+        GITHUB_TOKENS: ${{ secrets.TOKEN }}
+      run: npm run publish
