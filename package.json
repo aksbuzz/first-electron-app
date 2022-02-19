@@ -31,10 +31,22 @@
         {
           "name": "@electron-forge/maker-zip",
           "platforms": [
-            "darwin", "linux"
+            "darwin",
+            "linux"
           ]
         }
-      ]
+      ],
+      "publishers": 
+        {
+          "name": "@electron-forge/publisher-github",
+          "config": {
+            "repository": {
+              "owner": "aksbuzz",
+              "name": "first-electron-app"
+            }
+          }
+        }
+      }
     }
   },
   "dependencies": {
@@ -46,6 +58,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.63",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
     "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "@electron-forge/publisher-github": "^6.0.0-beta.63",
     "electron": "17.0.1"
   }
 }
