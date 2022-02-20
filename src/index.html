@@ -11,25 +11,9 @@
         <script defer src="./render.js"></script>
     </head>
 
-    <body>
-        <div class="container mt-6 pr-4 pl-4">
-            <div
-                class="is-flex is-flex-direction-row is-flex-wrap-nowrap is-justify-content-center is-align-items-center"
-            >
-                <input
-                    class="input"
-                    id="todo-input"
-                    type="text"
-                    placeholder="Add a task"
-                />
-                <button class="ml-2 button is-primary" id="add-todo-button">
-                    Add
-                </button>
-            </div>
-            <ul
-                id="todo-list-wrapper"
-                class="mt-4 is-flex is-flex-direction-column is-flex-wrap-nowrap"
-            ></ul>
-        </div>
+    <body class="container mt-4 ml-2 mr-2">
+        We are using Node.js <span id="node-version"></span>, Chromium
+        <span id="chrome-version"></span>, and Electron
+        <span id="electron-version"></span>.
     </body>
 </html>
