@@ -31,9 +31,14 @@
         {
           "name": "@electron-forge/maker-zip",
           "platforms": [
-            "darwin",
-            "linux"
+            "darwin"
           ]
+        },
+        {
+          "name": "@electron-forge/maker-deb"
+        },
+        {
+          "name": "'@electron-forge/maker-dmg'"
         }
       ],
       "publishers": [
